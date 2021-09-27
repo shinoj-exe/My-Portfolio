@@ -415,10 +415,21 @@ svg{
     margin: 0 auto;
     max-width: 400px;
 }
-.social a{
+.social-item{
     margin: 5px;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
+    transition: transform 0.3s ease;
+}
+.social-item:hover{
+    transform: scale(1.1);
+}
+.end p{
+    margin: 0;
+    padding: 0.1rem 0;
+    background-color: #131313;
+    color: #ffffff;
+    text-align: center;
 }
 @media (min-width:200px){
     .contact-text p{
