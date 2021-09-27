@@ -149,9 +149,11 @@ const sr =ScrollReveal({
 })
 sr.reveal(`.section-title`,{delay:100,origin:'top'})
 sr.reveal(`.about-right`,{delay:100,origin:'bottom'})
+sr.reveal(`.contact-img`,{delay:100,origin:'left'})
+sr.reveal(`.contact-infos`,{delay:100,origin:'right'})
 sr.reveal(`.skill`,{delay:05, origin:'left'})
-sr.reveal(`.social-item`,{origin:'left',delay:50,interval:100})
 sr.reveal(`.project`,{origin:'left',delay:20,interval:100})
+sr.reveal(`.social-item`,{origin:'left',delay:50,interval:100})
 
 
 

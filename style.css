@@ -250,29 +250,6 @@ img{
     background-color: #9966ff;
     color: #000; 
 }
-.contact-infos{
-    color: #ffffff;
-    padding: 1rem;
-}
-.contact-icon{
-    width: 20%;
-}
-.info{
-    display: flex;
-    align-items: center;
-    padding: 1rem 0;
-    margin: 1rem 0;
-    border: #ffffff solid 1px;
-    border-radius: 5px;
-}
-.contact-text{
-    width: 80%;
-}
-.contact-text p{
-    font-family: "Montserrat";
-    font-weight: 600;
-    font-size: 1.5rem;
-}
 /* Skills Section */
 .skill-section{
     display: flex;
@@ -358,7 +335,7 @@ svg{
     left: 0;
 }
 .project-section{
-    padding: 5rem 1rem;
+    padding: 5rem 1rem 7rem;
     margin-top: 1.5rem;
 }
     /* rgba(127, 0, 255, 1) */
@@ -400,6 +377,156 @@ svg{
 }
 .project-links a:hover{
     color: #884dff;
+}
+
+.contact-section{
+    margin-bottom: 6.5rem;
+}
+.contact-infos{
+    color: #ffffff;
+    padding: 1rem;
+}
+.contact-icon{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border: #ffffff dashed 1px;
+    border-radius: 5px;
+}
+.contact-text{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-text p{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.35rem;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 400px;
+}
+.social a{
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+@media (min-width:200px){
+    .contact-text p{
+        font-size: 1.2rem;
+        word-wrap:break-word;
+    }
+}
+@media (min-width:300px){
+    .contact-text p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:400px){
+    .intro h1{
+        font-size: 6rem;
+    }
+    .myself h1{
+        font-size: 3.5rem;
+    }
+    .myself img{
+        height: 15rem;
+        width: 15rem;
+    }
+    .skill{
+        width: 160px;
+        height: 160px;
+        margin: 50px;
+    }
+    .outer{
+        height: 160px;
+        width: 160px;
+        padding: 20px;
+    }
+    .inner{
+        height: 120px;
+        width: 120px;
+    }
+    .project-title p{
+        font-size: 2.2rem;
+    }
+    .project-links a{
+        font-size: 2.2rem;
+        margin-right: 0.8rem;
+    }
+    .contact-heading{
+        margin-bottom: 5.5rem;
+    }
+    lord-icon{
+        height: 80px;
+        width: 80px;
+    }
+}
+@media (min-width:760px){
+    .intro h1{
+        font-size: 8rem;
+    }
+    .welcome{
+        padding-top: 15rem;
+    }
+    .myself{
+        padding-top: 15rem;
+        padding-left: 2rem;
+    }
+    .myself h1{
+        font-size: 5rem;
+    }
+    #about{
+        margin-top: 0;
+        padding-top: 4rem;
+    }
+    .section-title{
+        font-size: 7rem;
+    }
+    .about-text p{
+        font-size: 2.1rem;
+    }
+    .skill-section{
+        padding-top: 2rem;
+    }
+    .skill-title h4{
+        font-size: 2rem;
+        margin-top: 2.5rem;
+    }
+    .skills{
+        margin: 3rem auto 4rem;  
+        padding-bottom: 2rem;
+    }
+    .project-section .heading{
+        padding: 2rem 0;
+    }
+    .project-details{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem 0.5rem;
+    }
+    .project-title{
+        width: 70%;
+    }
+    .project-title p{
+        font-size: 2.3rem;
+    }
+}
+@media (min-width:1000px){
+    .contact-text p{
+        font-size: 2rem;
+    }
 }
 @keyframes animOne{
     100%{
@@ -457,92 +584,3 @@ svg{
     }
   }
 /* End Keyframes */
-@media (min-width:200px){
-
-}
-
-@media (min-width:400px){
-    .intro h1{
-        font-size: 6rem;
-    }
-    .myself h1{
-        font-size: 3.5rem;
-    }
-    .myself img{
-        height: 15rem;
-        width: 15rem;
-    }
-    .skill{
-        width: 160px;
-        height: 160px;
-        margin: 50px;
-    }
-    .outer{
-        height: 160px;
-        width: 160px;
-        padding: 20px;
-    }
-    .inner{
-        height: 120px;
-        width: 120px;
-    }
-    .project-title p{
-        font-size: 2.2rem;
-    }
-    .project-links a{
-        font-size: 2.2rem;
-        margin-right: 0.8rem;
-    }
-}
-@media (min-width:760px){
-    .intro h1{
-        font-size: 8rem;
-    }
-    .welcome{
-        padding-top: 15rem;
-    }
-    .myself{
-        padding-top: 15rem;
-        padding-left: 2rem;
-    }
-    .myself h1{
-        font-size: 5rem;
-    }
-    #about{
-        margin-top: 0;
-        padding-top: 4rem;
-    }
-    .section-title{
-        font-size: 7rem;
-    }
-    .about-text p{
-        font-size: 2.1rem;
-    }
-    .skill-section{
-        padding-top: 2rem;
-    }
-    .skill-title h4{
-        font-size: 2rem;
-        margin-top: 2.5rem;
-    }
-    .skills{
-        margin: 3rem auto 4rem;  
-        padding-bottom: 2rem;
-    }
-    .project-section .heading{
-        padding: 2rem 0;
-    }
-    .project-details{
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1.5rem 0.5rem;
-    }
-    .project-title{
-        width: 70%;
-    }
-    .project-title p{
-        font-size: 2.3rem;
-    }
-
-}
