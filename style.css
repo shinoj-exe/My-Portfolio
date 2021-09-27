@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;300;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -12,9 +10,7 @@ html{
     font-size: 10px;
     scroll-behavior: smooth;
 }
-/* canvas{ 
-    display: block; 
-}  */
+
 #particles-js
 {
     position: fixed;
@@ -43,15 +39,7 @@ img{
 .section-title span{
     color: #9966ff;
 }
-/* p{
-    color: black;
-    font-size: 1.4rem;
-    margin-top: 5px;
-    line-height: 2.5rem;     
-    font-weight: 400;
-    letter-spacing: 0.05rem;
-    padding: 20px 0px;
-} */
+
 #home{
     min-height: 100vh;
     overflow-x: hidden;
@@ -102,7 +90,7 @@ img{
     font-weight: 500;
     letter-spacing: .2rem;
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 20px;
     display: block;
@@ -193,7 +181,7 @@ img{
     animation-delay: 2.5s;
 }
 .myself{
-    color: white;
+    color: #ffffff;
     position: relative;
     padding-left: 2.5rem;
 }
@@ -236,7 +224,7 @@ img{
     margin-bottom: 4rem;
 }
 .about-text p{
-    color: white;
+    color: #ffffff;
     font-size: 1.8rem;
     margin: 0 1rem;
 }
@@ -263,7 +251,7 @@ img{
     color: #000; 
 }
 .contact-infos{
-    color: white;
+    color: #ffffff;
     padding: 1rem;
 }
 .contact-icon{
@@ -274,7 +262,7 @@ img{
     align-items: center;
     padding: 1rem 0;
     margin: 1rem 0;
-    border: white solid 1px;
+    border: #ffffff solid 1px;
     border-radius: 5px;
 }
 .contact-text{
@@ -397,7 +385,7 @@ svg{
     flex-direction: column;
 }
 .project-title p{
-    color: white;
+    color: #ffffff;
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     padding: 1rem 0;
@@ -406,7 +394,7 @@ svg{
     margin-bottom: 0;
 }
 .project-links a{
-    color: white;
+    color: #ffffff;
     margin-right:2rem ;
     font-size: 1.3rem;
 }
@@ -443,7 +431,7 @@ svg{
 }
 @keyframes text_reveal{
     100%{
-        color: white;
+        color: #ffffff;
     }
 }
 @keyframes reveal{
