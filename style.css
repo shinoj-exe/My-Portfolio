@@ -349,14 +349,17 @@ svg{
     border: 1.5px solid rgba(255, 255, 255, 0.657);
     background: linear-gradient(45deg, rgba(127, 0, 255,0.45), rgba(255,0,255,0.45));
     backdrop-filter: blur(1.5px);
+}
+.projects{
     transition: transform 0.3s ease-in;
 }
-.project:hover{
+.projects:hover{
     transform: scale(1.04);
 }
 .project-image img{
     border-radius:12px 12px 0 0 ;
 }
+
 .project-details{
     display: flex;
     flex-direction: column;
@@ -413,15 +416,17 @@ svg{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 350px;
 }
 .social-item{
     margin: 5px;
     width: 45px;
     height: 45px;
+}
+.social-img{
     transition: transform 0.3s ease;
 }
-.social-item:hover{
+.social-img:hover{
     transform: scale(1.1);
 }
 .end p{
