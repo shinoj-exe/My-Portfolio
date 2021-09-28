@@ -21,6 +21,9 @@ html{
     background-position: top;
     z-index: -100;
 }
+canvas{ 
+    display: block;
+} 
 a{
     text-decoration: none;
 }
@@ -384,6 +387,7 @@ svg{
 
 .contact-section{
     margin-bottom: 6.5rem;
+    overflow-x: hidden;
 }
 .contact-infos{
     color: #ffffff;
