@@ -341,10 +341,6 @@ svg{
     padding: 5rem 1rem 7rem;
     margin-top: 1.5rem;
 }
-    /* rgba(127, 0, 255, 1) */
-    /* rgba(153, 102, 255, 1) */   
-     /*rgba(225, 0, 255, 1)  */
-
 .project{
     margin: 2rem 1rem;
     padding: 1rem;
@@ -379,7 +375,7 @@ svg{
 .project-links a{
     color: #ffffff;
     margin-right:2rem ;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
 }
 .project-links a:hover{
     color: #884dff;
