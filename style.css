@@ -427,12 +427,6 @@ svg{
     width: 45px;
     height: 45px;
 }
-.social-img{
-    transition: transform 0.3s ease;
-}
-.social-img:hover{
-    transform: scale(1.1);
-}
 .end p{
     margin: 0;
     padding: 0.1rem 0;
