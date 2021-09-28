@@ -13,9 +13,9 @@ menuItems.forEach((item)=>{
     hamburger.classList.remove("active")
   })
 })
-window.onload = function () {
-  setTimeout(appeardiv,1000);
-}
+
+setTimeout(appeardiv,1000);
+
 function appeardiv() {
   document.querySelector('.myself h1').classList.add("active");
 }
