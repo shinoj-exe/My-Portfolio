@@ -563,7 +563,7 @@ svg{
     }
 }@keyframes animThree{
     100%{
-        stroke-dashoffset: 220;
+        stroke-dashoffset: 88;
     }
 }@keyframes animFour{
     100%{
