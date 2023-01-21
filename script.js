@@ -118,14 +118,14 @@ class TypeWriter {
 
     let counterThree=0;
     setInterval(()=>{
-        if(counterThree==50){
+        if(counterThree==80){
             clearInterval();
         }else{
             counterThree++;
             numberThree.innerHTML= counterThree +"%";
         }
     
-    },26);/*1300ms/50=26*/
+    },16.25);/*1300ms/50=26*/
 
     let numberFour= document.getElementById("numberFour");
 
