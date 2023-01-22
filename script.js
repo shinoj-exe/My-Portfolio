@@ -140,6 +140,19 @@ class TypeWriter {
     
     },52);/*1300ms/25=52*/
 
+
+    let numberFive= document.getElementById("numberFive");
+
+    let counterFive=0;
+    setInterval(()=>{
+        if(counterFive==60){
+            clearInterval();
+        }else{
+            counterFive++;
+            numberFive.innerHTML= counterFive +"%";
+        }
+    },21.6);/*1300ms/60=52*/
+
 // ScrollReveal
 const sr =ScrollReveal({
   distance:"60px",
