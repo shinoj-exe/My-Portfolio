@@ -322,7 +322,7 @@ img{
     justify-content: center;
     box-shadow: 6px 6px 10px -1px rgba(225,0,255,0.35),-6px -6px 10px -1px rgba(127,0,255,0.8);
 }
-#numberOne,#numberTwo,#numberThree,#numberFour,#numberFive{
+#numberOne,#numberTwo,#numberThree,#numberFour,#numberFive,#numberSix,#numberSeven{
     font-weight: 600 ;
     font-size: 1.8rem;
     color: #fff;
@@ -348,6 +348,12 @@ circle.CircleFour.active{
 }
 circle.CircleFive.active{
     animation: animFive 1.3s linear forwards;
+}
+circle.CircleSix.active{
+    animation: animSix 1.3s linear forwards;
+}
+circle.CircleSeven.active{
+    animation: animSeven 1.3s linear forwards;
 }
 svg{
     position: absolute;
@@ -575,6 +581,16 @@ svg{
 }@keyframes animFive{
     100%{
         stroke-dashoffset: 155;
+    }
+}
+@keyframes animSix{
+    100%{
+        stroke-dashoffset: 220;
+    }
+}
+@keyframes animSeven{
+    100%{
+        stroke-dashoffset: 220;
     }
 }
 @keyframes text_reveal_box{

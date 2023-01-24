@@ -153,6 +153,30 @@ class TypeWriter {
         }
     },21.6);/*1300ms/60=52*/
 
+    let numberSix= document.getElementById("numberSix");
+
+    let counterSix=0;
+    setInterval(()=>{
+        if(counterSix==50){
+            clearInterval();
+        }else{
+            counterSix++;
+            numberSix.innerHTML= counterSix +"%";
+        }
+    },21.6);/*1300ms/60=52*/
+
+    let numberSeven= document.getElementById("numberSeven");
+
+    let counterSeven=0;
+    setInterval(()=>{
+        if(counterSeven==50){
+            clearInterval();
+        }else{
+            counterSeven++;
+            numberSeven.innerHTML= counterSeven +"%";
+        }
+    },21.6);/*1300ms/60=52*/
+
 // ScrollReveal
 const sr =ScrollReveal({
   distance:"60px",
